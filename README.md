@@ -1,4 +1,4 @@
-JS Cache library that allows to to store data and setup TTL.
+JS Cache library that allows to store data and setup TTL.
 
 Usage:
 
