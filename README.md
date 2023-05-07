@@ -2,7 +2,7 @@ JS Cache library that allows to store data and setup TTL.
 
 Usage:
 
-    const { CacheService } = require('cachelib');
+    const { CacheService } = require('cachelib-js');
 
     const cacheService = new CacheService;
 

@@ -1,6 +1,6 @@
 {
   "name": "cachelib-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple cache library with ttl",
   "main": "index.js",
   "directories": {
