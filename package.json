@@ -1,7 +1,7 @@
 {
-  "name": "cachelib",
-  "version": "1.0.0",
-  "description": "",
+  "name": "cachelib-js",
+  "version": "1.0.1",
+  "description": "Simple cache library with ttl",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -10,12 +10,19 @@
     "test": "jest ./tests/",
     "build": "gulp build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cache",
+    "js"
+  ],
+  "author": "thewillwillhelp",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-rename": "^2.0.0",
     "jest": "^29.5.0"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/thewillwillhelp/cachelib.git"
   }
 }

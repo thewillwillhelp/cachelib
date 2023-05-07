@@ -12,5 +12,10 @@ function copyPackageMetafile() {
         .pipe(dest('./dist'));
 }
 
-module.exports.build = parallel(build, copyPackageMetafile);
+function copyReadme() {
+    return src('./README.md')
+        .pipe(dest('./dist'));
+}
+
+module.exports.build = parallel(build, copyReadme, copyPackageMetafile);
 
